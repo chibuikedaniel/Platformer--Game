@@ -51,3 +51,11 @@ class Player {
         };
     };
 };
+
+const player = new Player();
+
+const startGame = () => {
+    canvas.style.display = "block";
+    startScreen.style.display = "none";
+    player.draw()
+}
